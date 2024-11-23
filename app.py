@@ -89,6 +89,4 @@ with st.container():
         st.info('[anuragdscon@gmail.com]', icon="📩")
 
 
-  with left_column:
-      st_lottie(animation_contact, speed=1, height=200, key="third")
 
