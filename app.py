@@ -86,9 +86,9 @@ with st.container():
 
         st.write('_For any issue contact me via:_')
         st.info('[LinkedIn](https://www.linkedin.com/in/anurag-parsi-407377238)', icon="📩")
-         st.info('[anuragdscon@gmail.com]', icon="📩")
+        st.info('[anuragdscon@gmail.com]', icon="📩")
 
 
-    with left_column:
-        st_lottie(animation_contact, speed=1, height=200, key="third")
+with left_column:
+    st_lottie(animation_contact, speed=1, height=200, key="third")
 
