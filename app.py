@@ -82,7 +82,7 @@ elif submit3:
 
 with st.container():
     right_column, left_column = st.columns(2)
-    with right_column:
+    with left_column:
 
         st.write('_For any issue contact me via:_')
         st.info('[LinkedIn](https://www.linkedin.com/in/anurag-parsi-407377238)', icon="📩")
