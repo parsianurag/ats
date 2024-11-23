@@ -79,3 +79,16 @@ elif submit3:
         st.write(response)
     else:
         st.write("Please upload the resume")
+
+with st.container():
+    right_column, left_column = st.columns(2)
+    with right_column:
+
+        st.write('_For any issue contact me via:_')
+        st.info('[LinkedIn](https://www.linkedin.com/in/anurag-parsi-407377238)', icon="📩")
+         st.info('[anuragdscon@gmail.com]', icon="📩")
+
+
+    with left_column:
+        st_lottie(animation_contact, speed=1, height=200, key="third")
+
