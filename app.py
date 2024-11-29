@@ -88,4 +88,62 @@ with st.container():
         st.info('[LinkedIn](https://www.linkedin.com/in/anurag-parsi-407377238)', icon="📩")
         st.info('[anuragdscon@gmail.com]', icon="📩")
 
+footer="""<style>
+header {visibility: hidden;}
 
+/* Light mode styles */
+p {
+  color: black;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  p {
+    color: white;
+  }
+}
+
+a:link , a:visited{
+color: #5C5CFF;
+background-color: transparent;
+text-decoration: none;
+}
+
+a:hover,  a:active {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+
+:root {
+  --footer-bg-color: #333;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --footer-bg-color: rgb(14, 17, 23);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --footer-bg-color: white;
+  }
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: var(--footer-bg-color);
+color: black;
+text-align: center;
+}
+
+</style>
+<div class="footer">
+<p>&copy; 2024 <a href="https://www.linkedin.com/in/anurag-parsi-407377238"> Anurag Parsi</a></p>
+</div>
+"""
+st.markdown(footer,unsafe_allow_html=True)
