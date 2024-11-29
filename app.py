@@ -143,8 +143,8 @@ text-align: center;
 
 </style>
 <div class="footer">
-<p>&copy; Developed By <a href="https://www.linkedin.com/in/anurag-parsi-407377238"> Anurag Parsi</a></p>
-<p>&copy; and <a href="https://www.linkedin.com/in/anurag-parsi-407377238"> Anirudh Parsi</a></p>
+<p> Developed by <a href="https://www.linkedin.com/in/anurag-parsi-407377238"> Anurag Parsi</a></p>
+<p> and <a href="https://www.linkedin.com/in/anurag-parsi-407377238"> Anirudh Parsi</a></p>
 </div>
 """
 st.markdown(footer,unsafe_allow_html=True)
