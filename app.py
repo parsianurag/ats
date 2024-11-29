@@ -89,19 +89,3 @@ with st.container():
         st.info('[anuragdscon@gmail.com]', icon="📩")
 
 
-.footer {
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-background-color: var(--footer-bg-color);
-color: black;
-text-align: center;
-}
-
-</style>
-<div class="footer">
-<p>&copy; 2024 <a href="https://www.linkedin.com/in/anurag-parsi-407377238"> Anurag Parsi</a></p>
-</div>
-"""
-st.markdown(footer,unsafe_allow_html=True)
